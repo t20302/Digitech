@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Tech- A brand with new tech items</title>
+
+    <!-- Animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Owl css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+
+    <!-- Line icon css -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="digitech">
+      <!-- Header starts -->
+      <header class="header-area">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-10 search">
+              <input type="search" placeholder="search here" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-1 col-sm-8">
+              <div class="logo">
+                <a href="#">Digitech</a>
+                <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+              </div>
+            </div>
+            <div class="col-lg-7 col-sm-12">
+              <div class="menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="header-right">
+                <ul>
+                  <li class="login">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#log"
+                      >login</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <ul>
+                      <li>
+                        <i class="lni lni-cart"></i><br />
+                        <span>cart is empty</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu slide -->
+        <div class="menu-slide">
+          <div class="menu-close"><i class="fas fa-times"></i></div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </header>
+      <!--Header ends-->
+
+      <!-- Modal -->
+      <div class="modal fade" id="log">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Log In</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="#">
+                <input
+                  type="text"
+                  placeholder="username"
+                  name="user"
+                  autofocus
+                  class="form-control"
+                />
+                <input
+                  type="password"
+                  placeholder="password"
+                  name="password"
+                  class="form-control"
+                />
+                <button type="button" value="Submit" class="btn btn-primary">
+                  Submit
+                </button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <p><a href="#">New! Create an account?</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ScrollTop starts -->
+      <div class="top wow animate__fadeInUpBig">
+        <i class="fa-solid fa-angle-up"></i>
+      </div>
+
+      <!-- Banner starts -->
+      <div class="container">
+        <div
+          class="banner-area wow animate__fadeInUp animate__delay-1s animate__slow"
+        >
+          <div class="row">
+            <div class="col-12">
+              <div class="banner-content">
+                <h3
+                  class="wow animate__fadeInUp animate__delay-1s animate__slow"
+                >
+                  Wireless
+                </h3>
+                <h1
+                  class="wow animate__fadeInUp animate__delay-1s animate__slow"
+                >
+                  headphone
+                </h1>
+                <button
+                  class="btn btn-danger btn-banner wow animate__fadeInLeft animate__delay-2s"
+                >
+                  Shop By Category
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="headphone wow animate__fadeIn animate__delay-1s animate__slow"
+          >
+            <img src="images/headphone/headphone-banner.png" alt="headphone" />
+          </div>
+          <div class="row">
+            <div class="col-12 description-details">
+              <div
+                class="description wow animate__fadeInRight animate__delay-2s"
+              >
+                <h6>Description</h6>
+                <p>
+                  Lorem ipsum, dolor sit amet adipisicing elit. Voluptate
+                  officia suscipit, quam enim quidem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Banner ends-->
+
+      <!-- Category gallery start -->
+      <div class="category-gallery">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div
+                class="img-gallery wow animate__fadeInRight animate__delay-1s"
+              >
+                <img
+                  src="images/earphone/white earphone.jpg"
+                  alt="white earphone"
+                />
+                <div class="electronic-device">
+                  <h6>Enjoy</h6>
+                  <h5>With</h5>
+                  <h4>EARPHONE</h4>
+                  <button class="btn btn-primary btn-category">Browse</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="img-gallery wow animate__fadeInRight animate__delay-2s"
+              >
+                <img
+                  src="images/earphone/black earphone.jpg"
+                  alt="black earphone"
+                />
+                <div class="electronic-device">
+                  <h6>Enjoy</h6>
+                  <h5>With</h5>
+                  <h4>EARPHONE</h4>
+                  <button class="btn btn-primary btn-category">Browse</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="img-gallery wow animate__fadeInRight animate__delay-3s"
+              >
+                <img src="images/laptop/laptop 1.jpg" alt="laptop" />
+                <div class="electronic-device">
+                  <h6>Enjoy</h6>
+                  <h5>With</h5>
+                  <h4>LAPTOP</h4>
+                  <button class="btn btn-primary btn-category">Browse</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="img-gallery wow animate__fadeInLeft animate__delay-3s"
+              >
+                <img
+                  src="images/game/xbox controller.jpg"
+                  alt="xbox controller"
+                />
+                <div class="electronic-device">
+                  <h6>Enjoy</h6>
+                  <h5>With</h5>
+                  <h4>XBOX CONTROLLER</h4>
+                  <button class="btn btn-primary btn-category">Browse</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="img-gallery wow animate__fadeInLeft animate__delay-2s"
+              >
+                <img
+                  src="images/smart phone/smart phone.jpg"
+                  alt="smart phone"
+                />
+                <div class="electronic-device">
+                  <h6>Enjoy</h6>
+                  <h5>With</h5>
+                  <h4>SMART PHONE</h4>
+                  <button class="btn btn-primary btn-category">Browse</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="img-gallery wow animate__fadeInLeft animate__delay-1s"
+              >
+                <img
+                  src="images/smart watch/smart watch 4.jpg"
+                  alt="smart watch"
+                />
+                <div class="electronic-device">
+                  <h6>Enjoy</h6>
+                  <h5>With</h5>
+                  <h4>SMART WATCH</h4>
+                  <button class="btn btn-primary btn-category">Browse</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service starts -->
+      <div class="service">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="shipping">
+                <i class="fa-solid fa-truck-fast"></i>
+                <div>
+                  <h6>Free Shipping</h6>
+                  <p>Free Shipping On All Order</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="guarantee">
+                <i class="fa-solid fa-award"></i>
+                <div>
+                  <h6>Money Guarantee</h6>
+                  <p>30 Day Money Back</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="online-support">
+                <i class="fa-solid fa-headphones-simple"></i>
+                <div>
+                  <h6>Online Support 24/7</h6>
+                  <p>Technical Support 24/7</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="secure-payment">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div>
+                  <h6>Secure Payment</h6>
+                  <p>All Cards Accepted</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Service ends-->
+
+      <!-- Parallex scrolling -->
+      <div class="advertisement">
+        <a href="#" class="explore"><h4>Explore The New World!</h4></a>
+      </div>
+
+      <!-- Summer sale starts -->
+      <div class="summer">
+        <div class="container">
+          <div class="summer-sale wow animate__zoomIn animate__delay-1s">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="summer-sale-left">
+                  <p>60% OFF</p>
+                  <h2>Big offer</h2>
+                  <p>15 July, 2022 to 15 October, 2022</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="summer-sale-right">
+                  <p>Beats Solor Air</p>
+                  <h4>Summer Sale</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur elit.
+                    <br />
+                    Nobis quis iure eaque autem.
+                  </p>
+                  <button class="btn-summer">Shop</button>
+                </div>
+              </div>
+            </div>
+            <div class="summer-sale-headphone">
+              <img
+                src="images/headphone/summer-headphone.png"
+                alt="Off-white headphone"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Summer sale ends-->
+
+      <!-- Best seller starts -->
+      <div class="best-seller">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="best-seller-heading">
+                <h4>Best Seller Products</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-gallery">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="images/headphone/black headphone.jpg"
+                      alt="black headphone"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <p class="card-title">Beats</p>
+                    <h5>$900</h5>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-target="#product"
+                      data-bs-toggle="modal"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="images/headphone/offwhite-headphone.jpg"
+                      alt="off-white headphone"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <p class="card-title">Rocky Mountain</p>
+                    <h5>$1100</h5>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-target="#product"
+                      data-bs-toggle="modal"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="images/game/ps4_controller.jpg"
+                      alt="PS4 Controller"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <p class="card-title">PS4 Controller</p>
+                    <h5>$800</h5>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-target="#product"
+                      data-bs-toggle="modal"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="images/laptop/laptop 2.jpg"
+                      alt="laptop"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <p class="card-title">Elite Laptop</p>
+                    <h5><span>$10,500</span> $8,500</h5>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-target="#product"
+                      data-bs-toggle="modal"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="images/smart device/drone.jpg"
+                      alt="Drone"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <p class="card-title">Sonar Drone</p>
+                    <h5>$4,500</h5>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-target="#product"
+                      data-bs-toggle="modal"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <a href="#">
+                    <img
+                      src="images/smart device/VR.jpg"
+                      alt="Virtual Reality"
+                      class="card-img-top"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <p class="card-title">Sonic VR</p>
+                    <h5>$5,500</h5>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-target="#product"
+                      data-bs-toggle="modal"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="product">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      <i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;&nbsp;
+                      Successfully added to your cart.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-success">View Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Best seller ends -->
+
+      <!-- summer-sale-green starts -->
+      <div class="summer">
+        <div class="container">
+          <div class="summer-green">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="summer-green-left">
+                  <p>60% OFF</p>
+                  <h2>Big offer</h2>
+                  <p>15 July, 2022 to 15 October, 2022</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="summer-green-right">
+                  <div class="summer-text">
+                    <p>Beats Solor Air</p>
+                    <h4>summer sale</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur elit.
+                      <br />
+                      Nobis quis iure eaque autem.
+                    </p>
+                  </div>
+                  <button class="btn-summer-green">Shop</button>
+                </div>
+              </div>
+            </div>
+            <div class="summer-green-watch">
+              <img src="images/smart watch/green-watch.png" alt="Green Watch" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Summer-sale-green ends-->
+
+      <!-- Recent News starts -->
+      <div class="recent-news">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="recent-text">
+                <h4>Recent News</h4>
+                <p>There are many variatons passages</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="blog-1">
+                <div class="card">
+                  <a href="#"
+                    ><img
+                      src="images/blog/Blog-1.jpg"
+                      class="card-img-top"
+                      alt="Smart Watch"
+                  /></a>
+                  <div class="card-body">
+                    <h6 class="card-subtitle">June 06,2022 - by Tanvir</h6>
+                    <h5 class="card-title">
+                      <a href="#">How to choose perfect gadgets</a>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Temporibus, veritatis? Dolorum amet minima earum impedit
+                      nisi autem, quas ab qui...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="blog-2">
+                <div class="card">
+                  <a href="#"
+                    ><img
+                      src="images/blog/Blog-2.jpg"
+                      class="card-img-top"
+                      alt="Smart Device"
+                  /></a>
+                  <div class="card-body">
+                    <h6 class="card-subtitle">June 06,2022 - by Tanvir</h6>
+                    <h5 class="card-title">
+                      <a href="#">How to choose perfect gadgets</a>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Temporibus, veritatis? Dolorum amet minima earum impedit
+                      nisi autem, quas ab qui...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="blog-3">
+                <div class="card">
+                  <a href="#"
+                    ><img
+                      src="images/blog/Blog-3.jpg"
+                      class="card-img-top"
+                      alt="VR"
+                  /></a>
+                  <div class="card-body">
+                    <h6 class="card-subtitle">June 06,2022 - by Tanvir</h6>
+                    <h5 class="card-title">
+                      <a href="#">How to choose perfect gadgets</a>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Temporibus, veritatis? Dolorum amet minima earum impedit
+                      nisi autem, quas ab qui...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Recent News ends -->
+
+      <!-- Footer Area starts -->
+      <footer class="footer-area">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-sm-6">
+              <div class="about">
+                <div class="footer-logo">
+                  <a href="#">Digitech</a>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <br />
+                  Beatae, ut fugiat vitae.
+                </p>
+                <div class="social-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="quick-link">
+                <h6>Quick Links</h6>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="contact">
+                <h6>Contact</h6>
+                <address>
+                  <p>
+                    <a href="tel:+8801796531564">+8801796531564</a> Patricia C.
+                    Amedee 4401 Waldeck <br />Street Grapevine Nashville,<br />
+                    Tx 76051
+                  </p>
+                </address>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="subscribe">
+                <h6>Subscribe To Our Email</h6>
+                <h4>For Latest News & Updates</h4>
+                <form action="#">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Your Email"
+                  />
+                  <button type="button" class="btn btn-danger subscribe-button">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="copy-right">
+        <div class="container">
+          <p>&copy; 2022 DIGITECH. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/40d84d0fce.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- owl js -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
